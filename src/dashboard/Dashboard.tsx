@@ -83,7 +83,7 @@ const Dashboard = ({
                     {standaloneSettings.standalonePassword &&
                     standaloneSettings.standalonePasswordWarningHidden !== true ? (
                       <div style={{ textAlign: 'center', color: 'red', paddingTop: 60, marginBottom: -50 }}>
-                        Warning: NeoDash is running with a plaintext password in config.json.
+                        Warning: NeoDash is running with a plaintext password in config.json, insecure!.
                       </div>
                     ) : (
                       <></>

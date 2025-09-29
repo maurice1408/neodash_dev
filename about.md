@@ -1,25 +1,29 @@
 ## About NeoDash Labs
 
-> NeoDash Labs is an unmaintained and unsupported tool. Use at your own risk!
+> NeoDash Labs is an unmaintained and unsupported tool.
+> Use at your own risk!
 
-NeoDash is a web-based tool for visualizing your Neo4j data. It lets you group visualizations together as dashboards, and allow for interactions between reports.
+NeoDash is a web-based tool for visualizing your Neo4j
+data. It lets you group visualizations together as
+dashboards, and allow for interactions between reports.
 
-Neodash supports presenting your data as tables, graphs, bar charts, line charts, maps and more. It contains a Cypher editor to directly write the Cypher queries that populate the reports. You can save dashboards to your database, and share them with others.
+Neodash supports presenting your data as tables,
+graphs, bar charts, line charts, maps and more. It
+contains a Cypher editor to directly write the Cypher
+queries that populate the reports. You can save
+dashboards to your database, and share them with
+others.
 
-## Try NeoDash Labs
-You can build NeoDash yourself, or pull the latest Docker image from Docker Hub.
-```
-# Run the application on http://localhost:5005
-docker pull neo4jlabs/neodash:latest
-docker run -it --rm -p 5005:5005 neo4jlabs/neodash
-```
+## Try NeoDash Labs You can build NeoDash yourself, or
+pull the latest Docker image from Docker Hub.  ``` #
+Run the application on http://localhost:5005 docker
+pull neo4jlabs/neodash:latest docker run -it --rm -p
+5005:5005 neo4jlabs/neodash ```
 
 > Windows users may need to prefix the `docker run` command with `winpty`.
 
-
-
-## Build and Run
-This project uses `yarn` to install, run, build prettify and apply linting to the code.
+## Build and Run This project uses `yarn` to install,
+run, build prettify and apply linting to the code.
 
 To install dependencies:
 ```
